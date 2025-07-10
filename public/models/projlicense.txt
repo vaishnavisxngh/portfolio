@@ -1,0 +1,11 @@
+Model Information:
+* title:	Perro Semihundido
+* source:	https://sketchfab.com/3d-models/perro-semihundido-7a63b7e21a934cefb89f1a6a4048105e
+* author:	betocarrillo (https://sketchfab.com/betocarrillo)
+
+Model License:
+* license type:	CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
+* requirements:	Author must be credited. Modified versions must have the same license. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Perro Semihundido" (https://sketchfab.com/3d-models/perro-semihundido-7a63b7e21a934cefb89f1a6a4048105e) by betocarrillo (https://sketchfab.com/betocarrillo) licensed under CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
