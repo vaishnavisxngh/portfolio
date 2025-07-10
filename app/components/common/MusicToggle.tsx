@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { isMobile } from "react-device-detect";
 import { usePortalStore } from "@stores";
 import { useGSAP } from "@gsap/react";

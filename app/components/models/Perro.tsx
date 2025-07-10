@@ -23,7 +23,7 @@ type GLTFResult = GLTF & {
     brush_ThickPaint: THREE.MeshBasicMaterial
     media_image_57264_1: THREE.MeshBasicMaterial
   }
-  animations: any[]
+//  animations: any[]
 }
 
 export function Perro(props: React.JSX.IntrinsicElements['group']) {
