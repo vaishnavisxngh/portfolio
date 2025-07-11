@@ -40,6 +40,7 @@ const MusicToggle = () => {
         ref={audioRef}
         src="/icons/audio.mp3"
         autoPlay
+        muted
         loop
         preload="auto"
       />
