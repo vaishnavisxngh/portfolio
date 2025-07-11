@@ -74,7 +74,7 @@ const FooterLinkItem = ({ link }: { link: FooterLink }) => {
   useCursor(hovered);
 
   if (isMobile) {
-    return <Svg onClick={onClick} scale={0.0015} position={[0.1, 0.25, 0]} src={link.icon} />;
+    return <Svg onClick={onClick} scale={0.0015} position={[0.1, 0.25, 0]} src={link.icon ?? ""} />;
   }
 
   return (
