@@ -11,7 +11,7 @@ const MusicToggle = () => {
   const musicToggleRef = useRef<HTMLDivElement>(null);
   const audioRef = useRef<HTMLAudioElement>(null);
   const isActive = usePortalStore((state) => state.activePortalId);
-  const [isPlaying, setIsPlaying] = useState(true);
+  const [isPlaying, setIsPlaying] = useState(false);
 
   useGSAP(() => {
     gsap.to(musicToggleRef.current, {
@@ -21,17 +21,21 @@ const MusicToggle = () => {
     });
   }, [isActive]);
 
-  const toggleMusic = () => {
+  const toggleMusic = async () => {
     const audio = audioRef.current;
     if (!audio) return;
 
     if (audio.paused) {
-      audio.play();
+      try { 
+      await audio.play();
       setIsPlaying(true);
-    } else {
-      audio.pause();
-      setIsPlaying(false);
+    } catch (err) {
+      console.warn("Playback failed:" , err);
     }
+  } else {
+    audio.pause();
+    setIsPlaying(false);
+  }
   };
 
   return (
@@ -39,8 +43,6 @@ const MusicToggle = () => {
       <audio
         ref={audioRef}
         src="/icons/audio.mp3"
-        autoPlay
-        muted
         loop
         preload="auto"
       />
