@@ -30,4 +30,10 @@ export const PROJECTS: Project[] = [
   subtext: 'Crafted the landing page for MLSA KIIT Cryptoblitz event with the UI/UX team, celebrating crypto trading excellence and opportunity.' ,
   url: 'https://www.figma.com/design/g58wnkghlkSrfrgsPj1Abv/Cryptoblitz?node-id=3-3&p=f&t=x0ACGDnDrNohMEbK-0',
 },
+{
+  title: 'Portfolio Website',
+  date: 'July 2025',
+  subtext: 'Creative Developer Portfolio Showcasing Interactive UI, Projects, Experience, and Purposeful Design with Personality.' ,
+  url:   'https://github.com/vaishnavisxngh/portfolio' ,
+},
 ];
