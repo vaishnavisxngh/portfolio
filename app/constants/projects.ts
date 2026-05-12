@@ -13,7 +13,7 @@ export const PROJECTS: Project[] = [
     url: 'https://github.com/vaishnavisxngh/Traffic-Sign-Recognition',
   },
  {
-    title: 'Azure Demand Forecasting & Capacity Optimization System' ,
+    title: 'Azure DFO System' ,
     date: 'Dec 2025',
     subtext: 'A comprehensive machine learning pipeline for forecasting Azure cloud resource demand with interactive dashboarding and RAG chatbot capabilities.',
     url: 'https://github.com/vaishnavisxngh/Azure-Based-Demand-Forecasting-Capacity-Optimization-System/tree/main' ,
@@ -25,13 +25,13 @@ export const PROJECTS: Project[] = [
     url: 'https://github.com/vaishnavisxngh/rate-limiter-service' ,
 },
 {
-  title: 'BMTNet — Implementation, Analysis & Improvements' ,
+  title: 'BMTNet Research' ,
   date: 'Feb 2026',
   subtext: 'Developed a deep learning ISP pipeline for RAW image demosaicing and denoising with PSNR/SSIM benchmarking for low-light image enhancement.' ,
   url: 'Reproduction study and improvement of BMTNet (Zhou et al., CVPR 2025). Binarized Mamba-Transformer for Lightweight Quad-Bayer HybridEVS Demosaicing.',
 },
 {
-  title: 'Parking Space Detection System',
+  title: 'Parking Space AI',
   date: 'Feb 2026',
   subtext: 'A real-time parking occupancy detection system using computer vision and deep learning (YOLOv5 + PyTorch)' ,
   url:   'https://github.com/vaishnavisxngh/ParkingSpaceDetectionMP' ,
